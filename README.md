@@ -1,0 +1,1 @@
+ efactory2 project initialize
