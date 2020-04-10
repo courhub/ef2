@@ -11,7 +11,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: 'E-FACTORY',
   pwa: false,
   iconfontUrl: '',
 };

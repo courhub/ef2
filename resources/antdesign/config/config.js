@@ -12,10 +12,10 @@ export default defineConfig({
   },
   locale: {
     // default zh-CN
-    default: 'zh-CN',
+    default: 'zh-TW',
     // default true, when it is true, will use `navigator.language` overwrite default
     antd: true,
-    baseNavigator: true,
+    baseNavigator: false,
   },
   dynamicImport: {
     loading: '@/components/PageLoading/index',
@@ -37,7 +37,7 @@ export default defineConfig({
       ],
     },
     {
-      path: '/',
+      path: '/web',
       component: '../layouts/SecurityLayout',
       routes: [
         {
@@ -50,9 +50,9 @@ export default defineConfig({
               redirect: '/welcome',
             },
             {
-              path: '/welcome',
+              path: '/web/welcome',
               name: 'welcome',
-              icon: 'smile',
+              icon: 'home',
               component: './Welcome',
             },
             {

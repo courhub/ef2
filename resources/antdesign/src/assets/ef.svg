@@ -1,0 +1,12 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!--created by courser.zhao-->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="102" height="102" id="canvas_background" fill="#d74b00"/>
+ </g>
+ <g>
+  <title>EF</title>
+  <text font-weight="bold" fill="#ffffff" stroke-width="0" x="146.28385" y="149" id="word" font-size="36" font-family="Calibri Light, sans-serif" text-anchor="start" xml:space="preserve" transform="matrix(2.3367295265197754,0,0,2.629629611968994,-333.51401686668396,-311.437496624887) ">EF</text>
+ </g>
+</svg>
