@@ -37,7 +37,7 @@ export default defineConfig({
       ],
     },
     {
-      path: '/web',
+      path: '/',
       component: '../layouts/SecurityLayout',
       routes: [
         {
@@ -50,7 +50,7 @@ export default defineConfig({
               redirect: '/welcome',
             },
             {
-              path: '/web/welcome',
+              path: '/welcome',
               name: 'welcome',
               icon: 'home',
               component: './Welcome',
